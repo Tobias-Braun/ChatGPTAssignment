@@ -1,6 +1,9 @@
 from revChatGPT.revChatGPT import Chatbot
-import json, cv2
-import pytesseract, nltk, re, np, random, os
+import cv2
+import pytesseract
+import numpy as np
+import random
+import os
 from flask import Flask, request, jsonify, render_template
 
 
